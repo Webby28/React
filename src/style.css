@@ -1,0 +1,27 @@
+html, body {
+    background-color: #21232A;
+    color: white;
+    font-family: Helvatica, Arial, sans-serif;
+    font-size: 1.3rem;
+    padding: 70px;
+}
+
+button {
+    background-color: aqua;
+    border-style: solid;
+    border-color: cadetblue;
+    border-width: 1px;
+    padding: 15px;
+    font-size: 1.3rem;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    margin: 5px;
+ }
+ 
+ button:hover {
+    background-color: lightblue; /* Cambia el color al pasar el cursor sobre el botón */
+ }
+ 
+ button:active {
+    background-color: deepskyblue; /* Cambia el color al hacer clic en el botón */
+ }
+ 
